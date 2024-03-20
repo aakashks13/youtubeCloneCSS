@@ -1,0 +1,33 @@
+#sidebar{
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    top:59px;
+    left:0px;
+    width:80px;
+    bottom:0;
+    align-items:center;
+    background-color:white;
+    padding-top:15px;
+}
+.sidebaricons{
+    width:80px;
+    height:80px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.sidebarelements{
+    width:25px;
+    height:30px;
+    cursor:pointer;
+}
+.sidebaricons:hover{
+    background-color:rgb(243, 243, 243);
+}
+.sidebaricons p{
+    font-family:open sans;
+    font-size:10px;
+    margin-top:3px;
+}
